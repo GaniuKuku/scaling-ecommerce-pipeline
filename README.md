@@ -1,5 +1,28 @@
 # From Monolith to Event-Driven Architecture: Scaling an E-commerce Data Pipeline
 
+<!-- Project Status & Metadata -->
+![Author](https://img.shields.io/badge/Author-Ganiu_Kuku-4B0082?style=for-the-badge)
+![Project Type](https://img.shields.io/badge/Project-System_Architecture-0052CC?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Theoretical_Case_Study-FF9900?style=for-the-badge)
+
+<!-- Event Streaming & Message Brokers -->
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+
+<!-- Databases & Data Warehouses -->
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
+![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white)
+
+<!-- Data Processing & Transformation -->
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+
+<!-- Infrastructure & Orchestration -->
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
 ## Problem Statement
 
 ### Background
