@@ -64,6 +64,17 @@ The proposed solution will focus on transitioning from a tightly coupled monolit
 
 ### Proposed Scalable Architecture
 
+#### Key Improvements
+
+| Area | Existing System | Proposed Solution |
+|---|---|---|
+| Order Processing | Direct DB writes | Event-driven ingestion |
+| Inventory Updates | 10-minute polling | Real-time consumers |
+| Analytics | Batch processing on production DB | Dedicated analytics pipeline |
+| Scalability | Vertically limited | Horizontally scalable services |
+| Fault Tolerance | Single points of failure | Distributed resilient architecture |
+| Extensibility | Tightly coupled workflows | Independent event consumers |
+
 ![Proposed Scalable Architecture](assets/solution.png)
 
 To address the limitations of the existing monolithic pipeline, the system was redesigned using an event-driven and distributed architecture.
