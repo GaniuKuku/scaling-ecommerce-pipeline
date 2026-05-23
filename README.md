@@ -79,3 +79,18 @@ The redesigned architecture improves:
 
 For a detailed breakdown of the architectural redesign, scalability decisions, and technical reasoning, see:
 - [Proposed Architecture Documentation](docs/proposed_architecture.md)
+
+### Architectural Trade-Offs
+
+While the redesigned event-driven architecture improves scalability, resilience, and flexibility, it also introduces additional operational complexity compared to the original monolithic system.
+
+Some of the key trade-offs include:
+- increased infrastructure and operational costs,
+- eventual consistency between services,
+- more complex monitoring and observability requirements,
+- and the challenges of debugging distributed systems.
+
+These trade-offs are common in modern scalable architectures and are often necessary to support high-throughput systems and real-time processing workloads.
+
+For a detailed breakdown of the architectural trade-offs and engineering considerations, see:
+- [Trade-Off Analysis](docs/tradeoffs.md)
