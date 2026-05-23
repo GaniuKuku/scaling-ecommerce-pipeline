@@ -61,3 +61,21 @@ The objective of this case study is to analyze the scalability limitations of th
 * and real-time data processing capabilities.
 
 The proposed solution will focus on transitioning from a tightly coupled monolithic pipeline to a more distributed and event-driven architecture capable of handling high-volume transactional workloads efficiently.
+
+### Proposed Scalable Architecture
+
+![Proposed Scalable Architecture](assets/solution.png)
+
+To address the limitations of the existing monolithic pipeline, the system was redesigned using an event-driven and distributed architecture.
+
+Instead of relying on a single database and tightly coupled scripts, the proposed solution introduces asynchronous communication through an event streaming layer, independently scalable services, real-time inventory processing, and a dedicated analytics pipeline.
+
+The redesigned architecture improves:
+- scalability during high-traffic events,
+- fault tolerance and reliability,
+- near real-time processing,
+- workload isolation,
+- and flexibility for integrating future services such as fraud detection and recommendation systems.
+
+For a detailed breakdown of the architectural redesign, scalability decisions, and technical reasoning, see:
+- [Proposed Architecture Documentation](docs/proposed_architecture.md)
