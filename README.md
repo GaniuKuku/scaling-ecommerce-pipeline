@@ -105,3 +105,26 @@ These trade-offs are common in modern scalable architectures and are often neces
 
 For a detailed breakdown of the architectural trade-offs and engineering considerations, see:
 - [Trade-Off Analysis](docs/tradeoffs.md)
+
+### Theoretical Technology Stack
+
+The proposed architecture could be implemented using technologies such as:
+
+- Apache Kafka / RabbitMQ
+- PostgreSQL
+- Apache Spark
+- Snowflake / BigQuery
+- Docker
+- Kubernetes
+- dbt
+- Redis
+
+### Detailed Documentation
+
+- [Bottleneck Analysis](docs/bottleneck_analysis.md)
+- [Proposed Architecture](docs/proposed_architecture.md)
+- [Trade-Off Analysis](docs/tradeoffs.md)
+
+### Conclusion
+
+This case study demonstrates how a monolithic e-commerce pipeline can be redesigned into a scalable event-driven architecture capable of supporting high-volume transactional workloads, real-time processing, and future system extensibility.
